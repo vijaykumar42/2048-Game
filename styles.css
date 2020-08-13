@@ -1,0 +1,54 @@
+body {
+  font-family: "Segoe UI","Helvetica Neue",Arial,sans-serif
+}
+
+.container {
+  text-align: -webkit-center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.boardSize {
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+
+input[type=text] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+#button {
+background-color: green;
+border: none;
+border-radius: 5px;
+color: white;
+padding: 13px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid div {
+  font-size: 60px;
+  font-weight: bold;
+  background-color: green;
+  color: white;
+}
+
+.gameover {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.note {
+    padding-top: 20px;
+    font-size: 20px;
+}
